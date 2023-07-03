@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream IT</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("background.jpg");
+            background-size: cover;
+        }
+        
+        .hero-content {
+            background-image: url("hero-background.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero-content h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        
+        .hero-content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .cta-btn {
+            display: inline-block;
+            background-color: #fff;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .cta-btn:hover {
+            background-color: #f9f9f9;
+        }
+        
+        /* Rest of the code remains the same */
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Company Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Dream IT</h1>
+            <p>Find your dream job with us.</p>
+            <a href="#jobs" class="cta-btn">View Openings</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a top brand recruitment company, connecting top talent with leading companies worldwide. Our mission is to help individuals achieve their career goals and provide exceptional staffing solutions for businesses.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="service1.png" alt="Service 1">
+                <h3>Job Placement</h3>
+                <p>We match talented candidates with the right job opportunities based on their skills and aspirations.</p>
+            </div>
+            <div class="service">
+                <img src="service2.png" alt="Service 2">
+                <h3>Staffing Solutions</h3>
+                <p>We provide staffing solutions for businesses, ensuring they have the right talent to drive success.</p>
+            </div>
+            <div class="service">
+                <img src="service3.png" alt="Service 3">
+                <h3>Career Counseling</h3>
+ <p>Our career counseling services help individuals navigate their career paths and make informed decisions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="jobs" class="section">
+        <div class="container">
+            <h2>Job Openings</h2>
+            <div class="job">
+                <h3>WEB DEVELOPER</h3>
+                <p>Company: Alphamax</p>
+                <p>Location: Delhi</p>
+                <a href="#" class="apply-btn">Apply Now</a>
+            </div>
+            <div class="job">
+                <h3>SOFTWARE DEVELOPER</h3>
+                <p>Company: Vedology</p>
+                <p>Location: Mumbai</p>
+                <a href="#" class="apply-btn">Apply Now</a>
+            </div>
+        </div>
+    </section>
+  <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us - anmolpandey1412@gmail.com</h2>
+            <form id="login-form" class="login-form">
+                <h3>Login</h3>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Dream IT. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
